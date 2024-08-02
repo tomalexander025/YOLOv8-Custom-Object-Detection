@@ -2,12 +2,20 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 3
-names: ['Chair', 'Sofa', 'Table']
+nc: 6
+names: ['bag', 'book', 'glass', 'laptop', 'pen', 'phone']
+
+colors:
+  bag: [0, 165, 255]       # Orange in BGR format
+  book: [0, 255, 255]      # Yellow in BGR format
+  glass: [255, 0, 0]       # Blue in BGR format
+  laptop: [0, 255, 0]      # Green in BGR format
+  pen: [128, 0, 128]       # Purple in BGR format
+  phone: [0, 0, 255]       # Red in BGR format
 
 roboflow:
-  workspace: roboflow-100
-  project: furniture-ngpea
-  version: 2
+  workspace: ayush-o95jf
+  project: interview-ijetu
+  version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/roboflow-100/furniture-ngpea/dataset/2
+  url: https://universe.roboflow.com/ayush-o95jf/interview-ijetu/dataset/1
