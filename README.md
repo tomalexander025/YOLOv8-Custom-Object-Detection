@@ -30,6 +30,3 @@ Now open the py file and upload the test video to detect.
 
 https://github.com/user-attachments/assets/b52f843d-c237-4b09-9f1b-cfe2d0dcdfd2
 
-
-#prediction
-yolo task=predict mode=val conf=0.25 model="D:\\yolov8\\runs\\detect\\train\\weights\\best.pt" source="D:\\your\\images\\source\\location"
