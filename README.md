@@ -30,3 +30,15 @@ Now open the py file and upload the test video to detect.
 
 https://github.com/user-attachments/assets/b52f843d-c237-4b09-9f1b-cfe2d0dcdfd2
 
+
+
+IF YOU WANT TO SIMPLY JUST DETECT THE OBJECT USING " yolov8n.pt " 
+
+USE THIS CODE: 
+
+from ultralytics import solutions
+
+# Pass a model as an argument
+solutions.inference(model="yolov8n.pt")
+
+### Make sure to run the file using command `streamlit run <file-name.py>`
